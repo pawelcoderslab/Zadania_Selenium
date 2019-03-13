@@ -8,6 +8,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
+import java.util.Random;
+
 
 public class AuthenticationPage {
     WebDriver driver;
@@ -95,8 +97,20 @@ public class AuthenticationPage {
         this.driver = driver;
     }
 
-    public void enterEmailForNewAccount (String email){
-        emailField.sendKeys(email);
+    protected String getSaltString() {
+        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        StringBuilder salt = new StringBuilder();
+        Random rnd = new Random();
+        while (salt.length() < 10) { // length of the random string.
+            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
+            salt.append(SALTCHARS.charAt(index));
+        }
+        String saltStr = salt.toString();
+        return saltStr;
+
+    }
+    public void enterEmailForNewAccount (){
+        emailField.sendKeys(getSaltString()+"@gmail.com");
 
     }
 

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efde266d-93a8-4562-8a92-67ed2e1bbaf2" name="Default Changelist" comment="" />
+    <list default="true" id="efde266d-93a8-4562-8a92-67ed2e1bbaf2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/AuthenticationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/AuthenticationPage.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,23 +27,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Page/ProductsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="-53">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Selenium/client-combined-3.141.59-sources.jar!/org/openqa/selenium/WebElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3026">
-              <caret line="193" column="10" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -65,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PageFactory/BrowserFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="442">
               <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Page/AuthenticationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="124" column="32" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+            <state relative-caret-position="226">
+              <caret line="112" column="28" lean-forward="true" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,11 +142,12 @@
         <option value="$PROJECT_DIR$/src/TestCases/Tests.java" />
         <option value="$PROJECT_DIR$/src/TestCases/CreateNewAccount.java" />
         <option value="$PROJECT_DIR$/src/TestCases/Login.java" />
-        <option value="$PROJECT_DIR$/src/Page/AuthenticationPage.java" />
         <option value="$PROJECT_DIR$/src/Page/HomePage.java" />
         <option value="$PROJECT_DIR$/src/TestCases/SomethingElse.java" />
         <option value="$PROJECT_DIR$/src/TestCases/AddItemToCart.java" />
         <option value="$PROJECT_DIR$/src/Page/ProductsPage.java" />
+        <option value="$PROJECT_DIR$/src/Rest/Rest.java" />
+        <option value="$PROJECT_DIR$/src/Page/AuthenticationPage.java" />
       </list>
     </option>
   </component>
@@ -161,7 +157,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="951" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
@@ -205,7 +201,17 @@
               <item name="Zadanie" type="b2602c69:ProjectViewProjectNode" />
               <item name="Zadanie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -220,7 +226,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552495684481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552498674811" />
     <property name="last_opened_file_path" value="C:/Selenium/client-combined-3.141.59.jar!/" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
@@ -239,7 +245,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddItemToCart">
+  <component name="RunManager" selected="TestNG.&lt;default&gt; (3)">
+    <configuration name="All in Zadanie (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zadanie" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Zadanie" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Zadanie" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddItemToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Zadanie" />
       <extension name="coverage">
@@ -256,72 +281,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddItemToCart.loginToAnAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Zadanie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.AddItemToCart" />
-      <option name="METHOD_NAME" value="loginToAnAccount" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateNewAccount.createNewAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt; (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Zadanie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.CreateNewAccount" />
-      <option name="METHOD_NAME" value="createNewAccount" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.createNewAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt; (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Zadanie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Login" />
-      <option name="METHOD_NAME" value="createNewAccount" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.loginToAnAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" nameIsGenerated="true">
       <module name="Zadanie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Login" />
-      <option name="METHOD_NAME" value="loginToAnAccount" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -329,19 +329,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.CreateNewAccount.createNewAccount" />
-      <item itemvalue="TestNG.Login.createNewAccount" />
-      <item itemvalue="TestNG.Login.loginToAnAccount" />
-      <item itemvalue="TestNG.AddItemToCart.loginToAnAccount" />
       <item itemvalue="TestNG.AddItemToCart" />
+      <item itemvalue="JUnit.All in Zadanie" />
+      <item itemvalue="JUnit.All in Zadanie (1)" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.&lt;default&gt; (1)" />
+      <item itemvalue="TestNG.&lt;default&gt; (2)" />
+      <item itemvalue="TestNG.&lt;default&gt; (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt; (3)" />
+        <item itemvalue="TestNG.&lt;default&gt; (2)" />
+        <item itemvalue="TestNG.&lt;default&gt; (1)" />
+        <item itemvalue="JUnit.All in Zadanie (1)" />
         <item itemvalue="TestNG.AddItemToCart" />
-        <item itemvalue="TestNG.AddItemToCart.loginToAnAccount" />
-        <item itemvalue="TestNG.Login.loginToAnAccount" />
-        <item itemvalue="TestNG.Login.createNewAccount" />
-        <item itemvalue="TestNG.CreateNewAccount.createNewAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -359,12 +361,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddItemToCart_loginToAnAccount - 2019.03.13 at 15h 09m 45s.xml">
-      <configuration name="AddItemToCart.loginToAnAccount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddItemToCart_loginToAnAccount - 2019.03.13 at 15h 11m 35s.xml">
-      <configuration name="AddItemToCart.loginToAnAccount" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddItemToCart_loginToAnAccount - 2019.03.13 at 15h 13m 56s.xml">
       <configuration name="AddItemToCart.loginToAnAccount" configurationId="TestNG" />
     </history-entry>
@@ -389,9 +385,15 @@
     <history-entry file="AddItemToCart - 2019.03.13 at 17h 41m 22s.xml">
       <configuration name="AddItemToCart" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="All_in_Zadanie_(1) - 2019.03.13 at 18h 29m 59s.xml">
+      <configuration name="All in Zadanie (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_default__(1) - 2019.03.13 at 18h 33m 08s.xml">
+      <configuration name="&lt;default&gt; (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
@@ -435,16 +437,6 @@
     <entry file="file://$PROJECT_DIR$/src/TestCases/MateuszCase.java" />
     <entry file="file://$PROJECT_DIR$/src/Page/Up.java" />
     <entry file="file://$PROJECT_DIR$/src/TestCases/TestSuite.java" />
-    <entry file="file://$PROJECT_DIR$/src/Page/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Selenium/client-combined-3.141.59-sources.jar!/org/openqa/selenium/WebElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3026">
@@ -463,26 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageFactory/BrowserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/AuthenticationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="124" column="32" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,10 +485,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageFactory/BrowserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rest/Rest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Page/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Page/ProductsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="-53">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Page/AuthenticationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="112" column="28" lean-forward="true" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

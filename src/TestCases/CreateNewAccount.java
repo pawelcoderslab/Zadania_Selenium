@@ -16,7 +16,7 @@ public class CreateNewAccount {
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
         AuthenticationPage authenticationPage = PageFactory.initElements(driver,AuthenticationPage.class);
         homePage.clickSignInButton();
-        authenticationPage.enterEmailForNewAccount("kasia@kowalskaa.pl");
+        authenticationPage.enterEmailForNewAccount();
         authenticationPage.clickCreateNewAccount();
         authenticationPage.selectMrs();
         authenticationPage.enterFirstName("Kasia");

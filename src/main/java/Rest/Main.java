@@ -1,7 +1,9 @@
 package Rest;
 
-public class Main {
+import org.testng.annotations.Test;
 
+public class Main {
+@Test
     public static void main(String[] args) {
         Rest rest = new Rest();
 

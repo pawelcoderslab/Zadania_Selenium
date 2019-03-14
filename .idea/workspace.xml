@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efde266d-93a8-4562-8a92-67ed2e1bbaf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadanie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie/Page/AuthenticationPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie/Page/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie/Page/ProductsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie/PageFactory/BrowserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie/TestCases/AddItemToCart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie/TestCases/CreateNewAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie/TestCases/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/AuthenticationPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/ProductsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageFactory/BrowserFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rest/Rest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCases/AddItemToCart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCases/CreateNewAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCases/Login.java" beforeDir="false" />
-    </list>
+    <list default="true" id="efde266d-93a8-4562-8a92-67ed2e1bbaf2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -264,6 +244,24 @@
             </path>
             <path>
               <item name="Zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zadanie" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zadanie" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -279,7 +277,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552561276515" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552562020629" />
     <property name="last_opened_file_path" value="C:/Selenium/client-combined-3.141.59.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -298,7 +296,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rest.Main" />
+      <module name="Zadanie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Rest.Main" />
       <module name="Zadanie" />
@@ -371,24 +382,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddItemToCart.addItemToCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Zadanie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.AddItemToCart" />
-      <option name="METHOD_NAME" value="addItemToCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All tests" type="TestNG">
       <module name="Zadanie" />
       <option name="SUITE_NAME" value="" />
@@ -410,18 +403,18 @@
       <item itemvalue="JUnit.All in Zadanie" />
       <item itemvalue="TestNG.All tests" />
       <item itemvalue="JUnit.Rest.getResponse" />
-      <item itemvalue="TestNG.AddItemToCart.addItemToCart" />
       <item itemvalue="JUnit.Rest.highestUserId" />
       <item itemvalue="JUnit.Rest.highestIdForUser" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.Rest.highestUserId" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.Rest.highestIdForUser" />
-        <item itemvalue="JUnit.Rest.highestUserId" />
         <item itemvalue="JUnit.Rest.getResponse" />
-        <item itemvalue="TestNG.AddItemToCart.addItemToCart" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +464,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
@@ -629,6 +622,9 @@
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/Page/AuthenticationPage.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rest/Rest.java">
       <provider selected="true" editor-type-id="text-editor">
